@@ -1,0 +1,71 @@
+# ==============================
+# Data
+# ==============================
+
+# Raw datasets
+data/raw/
+
+# Processed datasets
+data/processed/
+
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# ==============================
+# Python Environment Files
+# ==============================
+
+.env
+
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.vscode/
+.idea/
+
+
+# ==============================
+# OS Generated Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Temporary / Log Files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+
+
+# ==============================
+# Power BI
+# ==============================
+
+# Temporary Power BI lock files
+*.pbi\lock
