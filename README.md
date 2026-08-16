@@ -216,6 +216,12 @@ The resulting customer-level RFM dataset contains:
 - RFM Score.
 - Customer segment.
 
+The final customer-level RFM dataset is stored as:
+
+`data/processed/customer_rfm_segments.csv`
+
+This dataset contains one row per customer and includes the customer's RFM metrics, individual RFM scores, overall RFM score, and assigned customer segment.
+
 ---
 
 ## 🎯 Customer Segmentation
@@ -362,7 +368,8 @@ customer-segmentation-analysis/
 │   │
 │   └── processed/
 │       ├── online_retail_cleaned.csv
-│       └── online_retail_customer.csv
+│       ├── online_retail_customer.csv
+│       └── customer_rfm_segments.csv
 │
 ├── notebooks/
 │   ├── 01_data_profiling.ipynb
